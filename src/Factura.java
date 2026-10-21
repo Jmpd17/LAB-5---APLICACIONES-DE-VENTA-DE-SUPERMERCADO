@@ -22,4 +22,43 @@ public class Factura {
     this.venta = venta;
     this.LocalDate fechaImpresion;
     }
+
+    // Getters and Setters
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setNumComprobante(String numComprobante) {this.numComprobante = numComprobante;}
+
+    public String getNumComprobant() {
+        return numComprobante;
+    }
+
+    public Venta getVenta() {
+        return venta;
+    }
+
+    public void setVenta(Venta venta) {
+        this.venta = venta;
+    }
+
+    public void setNumeroFactura(String numeroFactura) {
+        this.numeroFactura = numeroFactura;
+    }
+
+    public String getNumeroComprobante(){return numeroFactura;}
+
+
+    public LocalDate getfechaImpresion() {
+        return fechaImpresion;
+    }
+
+    public void setfechaImpresion(String fecha) {
+        this.fechaImpresion = fechaImpresion;
+    }
+}
 }
